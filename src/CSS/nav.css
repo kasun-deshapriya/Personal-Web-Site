@@ -1,0 +1,72 @@
+/* Default styles for larger screens */
+.line{
+    width: 100%;
+    background-color: darkorange;
+    height: 3px;
+    position: fixed;
+    margin-top: 0%;
+}
+.navbar1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+    margin-top: 3px;
+    width: 100%;
+    box-shadow: 1px 4px 6px rgb(255, 255, 255); 
+    position: fixed;
+    height: 10px;
+    border-bottom: solid rgb(59, 56, 56) 0.1px;
+} 
+
+.Link {
+    display: flex;
+    margin-left: 35%;
+    background-color: white;
+}
+
+.li {
+    text-decoration: none;
+    color: black;
+    margin-left: 20%;
+    background-color: white;
+}
+
+.li:hover  {
+    color: green;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 1024px) {
+    .navbar1 {
+        margin-right: 5%; /* Adjust margins for medium-sized screens */
+    }
+    
+    .Link {
+        margin-left: 15%;
+    }
+    
+    .li {
+        margin-left: 5%;
+        
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        margin-left: 5%;
+        margin-right: 5%; /* Adjust margins for smaller screens */
+    }
+    
+    .Link {
+        margin-left: -2%;  
+        display: flex;
+        align-items: center;
+    }
+    
+    .li {
+        margin-left: 0;
+        justify-content: center;
+    }
+}

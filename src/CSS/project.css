@@ -1,0 +1,98 @@
+.con2{
+    width: 90% ;
+    height: 1100px;
+    background-color: rgb(36, 34, 34);
+    margin-top: -2%;
+    margin-left: 5%;
+    border-radius: 5%;
+    position: -webkit-sticky;
+}
+.pro{
+    margin-left: 13%;
+    margin-right: 10%;
+    margin-top: -2%;
+    font-size: 18px;
+    word-spacing: 2px;
+    color: #e4e3e3;
+    background-color: rgb(36, 34, 34); 
+    position: -webkit-sticky;
+}
+.pro1{
+    width: 25%;
+    height: 30px;
+    margin-top: 5%;
+    margin-left: 8%;
+    background-color: white;
+    height: 200px;
+    border-radius: 5%;
+    box-shadow: 0px 2px 4px 4px rgb(255, 255, 255);
+}
+.pro1:hover{
+    background-color: #dad5d5d5;
+}
+.di{
+    margin-top: 3%;
+    border-radius: 5%;
+    background-color: white;
+    box-shadow: 0px 2px 4px 4px rgb(255, 255, 255);
+}
+.logo1{
+    width: 25%;
+    height: 50px;
+    margin-top: 5%;
+    margin-left: 5%;
+    border-radius: 5%;
+}
+.h2{
+    margin-top: 2%;
+    margin-left: 6%;
+    background-color: white;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: bold;
+}
+.p--{
+    margin-left: 13%;
+    margin-right: 10%;
+    font-size: 18px;
+    word-spacing: 2px;
+    color: #141414;
+    background-color:white; 
+    position: -webkit-sticky;
+}
+.git1{
+    background-color:white;
+    margin-left: 10%;
+    position: -webkit-sticky;
+    font-weight: bold;
+}
+.attach{
+    background-color:white;
+}
+.pro2{
+    width: 25%;
+    margin-top: -17.5%;
+    margin-left: 39%;
+    background-color: white;
+    height: 200px;
+    border-radius: 5%;
+    box-shadow: 0px 2px 4px 4px rgb(255, 255, 255);
+}
+.pro3{
+    width: 25%;
+    margin-top: -17.5%;
+    margin-left: 71%;
+    background-color: white;
+    height: 200px;
+    border-radius: 5%;
+    box-shadow: 0px 2px 4px 4px rgb(255, 255, 255);
+}
+.pro4{
+    width: 25%;
+    margin-top: 12%;
+    margin-left: 8%;
+    background-color: white;
+    height: 200px;
+    border-radius: 5%;
+    box-shadow: 0px 2px 4px 4px rgb(255, 255, 255);
+}
