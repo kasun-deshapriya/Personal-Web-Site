@@ -2,6 +2,7 @@ import React from 'react'
 import "../CSS/home.css";
 import image from "../images/logo.jpg";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import myimage from "../images/myimage.jpeg"
 
 function Home() {
   return (
@@ -11,16 +12,11 @@ function Home() {
 
     <div className='div1'>
      
-       <img src={image} className='logo'></img>
+       <img src={myimage} className='logo'></img>
             
-          <h1 className='heding'>Full-stack <br></br><span className='s1'>Web Developer</span></h1>
+          <h1 className='heding'>I'm Kasun<br></br><span className='s1'>Software Engineer</span></h1>
           <br></br>
-          <p>I am a front-end and backend developer with expertise in React.js and Laravel.
-             I have experience in building scalable, secure and reliable web applications using various 
-             frameworks and technologies.
-             I enjoy solving complex problems and learning new skills. 
-             I am passionate about creating high-quality code that follows best practices and industry standards.
-             I am always looking for new challenges and opportunities to grow as a developer.
+          <p>I’m Kasun Deshapriya, a passionate software engineer specializing in building robust and scalable web and mobile applications. Explore my projects, skills, and experience in React Native, Tailwind CSS, Firebase, and more.
              </p>
     
              <div className='links'>

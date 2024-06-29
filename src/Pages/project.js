@@ -3,6 +3,8 @@ import "../CSS/project.css"
 import logo1 from "../images/logo1.jpg"
 import logo2 from "../images/logo2.jpg"
 import logo3 from "../images/logo3.png"
+import download from "../images/download.jpg"
+
 
 function project() {
   return (
@@ -64,6 +66,19 @@ function project() {
             <img src={logo3}  className='logo1'></img>
             <h2 className='h2'>Student-Registration-For-Online-Courses </h2>
             <p className='p--'> This System is made by using HTML, CSS, JavaScript and PHP ,with a mysql database</p>
+
+           <a href='https://github.com/kasun-deshapriya' className='git1' >< svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-paperclip" viewBox="0 0 16 16" className='attach'>
+          <path d="M4.5 3a2.5 2.5 0 0 1 5 0v9a1.5 1.5 0 0 1-3 0V5a.5.5 0 0 1 1 0v7a.5.5 0 0 0 1 0V3a1.5 1.5 0 1 0-3 0v9a2.5 2.5 0 0 0 5 0V5a.5.5 0 0 1 1 0v7a3.5 3.5 0 1 1-7 0z"/>
+          </svg>view project</a>
+         </div>
+
+      </div>
+
+      <div className='pro5'>
+         <div className='di'>
+            <img src={download}  className='logo1'></img>
+            <h2 className='h2'>Goviya.lk mobile App </h2>
+            <p className='p--'> This System is made by using React Native expo, Taildwind CSS ,with a Firebase database</p>
 
            <a href='https://github.com/kasun-deshapriya' className='git1' >< svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-paperclip" viewBox="0 0 16 16" className='attach'>
           <path d="M4.5 3a2.5 2.5 0 0 1 5 0v9a1.5 1.5 0 0 1-3 0V5a.5.5 0 0 1 1 0v7a.5.5 0 0 0 1 0V3a1.5 1.5 0 1 0-3 0v9a2.5 2.5 0 0 0 5 0V5a.5.5 0 0 1 1 0v7a3.5 3.5 0 1 1-7 0z"/>
